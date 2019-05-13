@@ -2,14 +2,18 @@
 $color-primary: #55c57a;
 $color-primary-light: #7ed56f;
 $color-primary-dark: #28b485;
+$color-primary-gradient: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
 
 $color-secondary-light: #ffb900;
 $color-secondary-dark: #ff7730;
+$color-secondary-gradient: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
 
 $color-tertiary-light: #2998ff;
 $color-tertiary-dark: #5643fa;
+$color-tertiary-gradient: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
 
 $color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
 
 $color-grey-dark: #777;
 $color-white: #fff;
