@@ -22,16 +22,15 @@
     }
 
     &--back {
+      background-color: green;
       transform: rotateY(180deg);
 
-      &--1{
+      &-1{
         background-image: $color-secondary-gradient;
       }
-      &--2{
-        background-image: $color-primary-gradient;
+      &-2{
       }
-      &--3{
-        background-image: $color-tertiary-gradient;
+      &-3{
       }
     }
   }
@@ -50,17 +49,15 @@
     height: 23rem;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
             clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
 
      &--1 {
        background-image: $color-secondary-gradient, url(../img/nat-5.jpg);
      }
      &--2 {
-       background-image: $color-primary-gradient, url(../img/nat-6.jpg);
+       background-image: url(../img/nat-6.jpg);
      }
      &--3 {
-       background-image: $color-tertiary-gradient, url(../img/nat-7.jpg);
+       background-image: url(../img/nat-7.jpg);
      }
    }
 
@@ -86,18 +83,6 @@
         to right bottom, 
         rgba($color-secondary-light, .85),
         rgba($color-secondary-dark, .85));
-     }
-     &--2 {
-       background-image: linear-gradient(
-        to right bottom, 
-        rgba($color-primary-light, .85),
-        rgba($color-primary-dark, .85));
-     }
-     &--3 {
-       background-image: linear-gradient(
-        to right bottom, 
-        rgba($color-tertiary-light, .85),
-        rgba($color-tertiary-dark, .85));
      }
    }
 
@@ -128,14 +113,9 @@
      top: 50%;
      left: 50%;
      transform: translate(-50%, -50%);
-     width: 90%;
-     text-align: center;
    }
 
    &__price-box {
-     text-align: center;
-     color: $color-white;
-     margin-bottom: 8rem;
    }
 
    &__price-only {
